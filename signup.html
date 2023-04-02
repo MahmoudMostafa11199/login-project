@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----------- Icons ------------>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Create Account</title>
+
+    <!------------------ CSS File ------------------>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="cont-signup">
+    <div class="container">
+      <div class="heading-box">
+        <ion-icon name="person-circle" class="icon-login"></ion-icon>
+        <h1 class="heading">Create account!</h1>
+      </div>
+
+      <form action="" class="form form-signup">
+        <div class="form-row">
+          <label for="fullname" class="lbl">Full Name</label>
+          <input
+            type="text"
+            name="fullname"
+            id="fullname"
+            class="input-field"
+            required
+          />
+          <ion-icon name="person" class="icon-input"></ion-icon>
+        </div>
+
+        <div class="form-row">
+          <label for="email" class="lbl">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="input-field"
+            required
+          />
+          <ion-icon name="mail" class="icon-input"></ion-icon>
+        </div>
+
+        <div class="form-row">
+          <label for="username" class="lbl">Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            class="input-field"
+            required
+          />
+          <ion-icon name="person" class="icon-input"></ion-icon>
+        </div>
+
+        <div class="form-row">
+          <label for="password" class="lbl">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="input-field"
+            required
+          />
+          <ion-icon name="lock-closed" class="icon-input"></ion-icon>
+        </div>
+
+        <div class="remembe_password-box">
+          <div class="form-check">
+            <input type="checkbox" name="checkbox" id="checkbox" checked />
+            <label for="checkbox">Remember me?</label>
+          </div>
+          <a href="#" class="forget-pass">forget password?</a>
+        </div>
+
+        <button type="submit" class="btn-submit">
+          Create&nbsp;
+          <ion-icon name="arrow-forward-sharp"></ion-icon>
+        </button>
+      </form>
+
+      <hr />
+      <p class="create-acc">
+        Already have an account?
+        <a href="./index.html" class="login-signup-link">Login</a>
+      </p>
+    </div>
+    <span class="copyright"
+      >&copy;Copyright by
+      <a
+        href="https://wa.me/01018672627?text=Hi"
+        class="copyright-link"
+        target="_blank"
+        >Mahmoud</a
+      ></span
+    >
+  </body>
+</html>

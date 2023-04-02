@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----------- Icons ------------>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Login</title>
+
+    <!------------------ CSS File ------------------>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading-box">
+        <ion-icon name="log-in-outline" class="icon-login"></ion-icon>
+        <h1 class="heading">Welcome</h1>
+        <span class="subtitle">Sign in to your account</span>
+      </div>
+
+      <form action="" class="form form-login">
+        <div class="form-row">
+          <label for="username" class="lbl">Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            class="input-field"
+            required
+          />
+          <ion-icon name="person" class="icon-input"></ion-icon>
+        </div>
+
+        <div class="form-row">
+          <label for="password" class="lbl">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="input-field"
+            required
+          />
+          <ion-icon name="eye" class="icon-input"></ion-icon>
+        </div>
+
+        <div class="remembe_password-box">
+          <div class="form-check">
+            <input type="checkbox" name="checkbox" id="checkbox" checked />
+            <label for="checkbox">Remember me?</label>
+          </div>
+          <a href="#" class="forget-pass">forget password?</a>
+        </div>
+
+        <button type="submit" class="btn-submit">
+          Login&nbsp;
+          <ion-icon name="arrow-forward-sharp"></ion-icon>
+        </button>
+      </form>
+
+      <hr />
+      <p class="create-acc">
+        Don't have an account?
+        <a href="./signup.html" class="login-signup-link">Create account</a>
+      </p>
+    </div>
+    <span class="copyright"
+      >&copy;Copyright by
+      <a
+        href="https://wa.me/01018672627?text=Hi"
+        class="copyright-link"
+        target="_blank"
+        >Mahmoud</a
+      ></span
+    >
+  </body>
+</html>
